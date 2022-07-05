@@ -4,10 +4,11 @@ import { ref } from 'vue'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+const a = ref('1111')
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>{{ msg }} {{ a }}</h1>
 
   <p>
     Recommended IDE setup:
